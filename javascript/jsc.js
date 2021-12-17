@@ -22,10 +22,9 @@ jQuery(($) => {
       }
     });
 });
-function downloadCV(){
-  window.open("https://drive.google.com/file/d/1g34CGysHZopb9CIwPzDDPJqjrfpt-l4b/view?usp=sharing")
-}
 /*function downloadCV(){
+  window.open("https://drive.google.com/file/d/1g34CGysHZopb9CIwPzDDPJqjrfpt-l4b/view?usp=sharing")
+}*/
+function downloadCV(){
   window.open("https://Ahmedhammami7.github.io/pdf/Ahmed Hammami.pdf")
 }
-*/
