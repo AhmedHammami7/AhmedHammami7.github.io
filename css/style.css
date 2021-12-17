@@ -1,5 +1,5 @@
 :root {
-  --font: "Inter", sans-serif;
+  --font: "poppins";
   --size-quote: 95px;
   --dark-background: #03001e;
   --yellow: #feac5e;
@@ -284,6 +284,12 @@
 
   i.bootstrap-mobile {
     color: var(--purple);
+  }
+  i.angular-mobile {
+    color: #cc2d2d;
+  }
+  i.node-mobile {
+    color: #29771e;
   }
 
   i.code-mobile {
@@ -809,6 +815,7 @@
   div.padding-footer {
     padding: 4rem 2rem 8rem 2rem !important;
   }
+
 
   button.btn {
     font-size: 17px !important;
@@ -4052,11 +4059,22 @@ i.bootstrap {
 
 i.code {
   color: #20bdff;
-  font-size: 70px;
-  padding-left: 1rem;
+  font-size: 60px;
+  padding-left: 2rem;
   margin-top: -2rem;
 }
-
+i.node {
+  color: #29771e;
+  font-size: 70px;
+  margin-top: -1rem;
+  margin-left: -2rem;
+}
+i.angular {
+  color: #cc2d2d;
+  font-size: 60px;
+  margin-top: 0.5rem;
+  margin-left: -0.5rem;
+}
 i.js {
   color: #fbd485;
   font-size: 50px;
@@ -4251,7 +4269,7 @@ div.margin-second-cards {
 }
 
 div.moving-memoji {
-  margin: -23rem 0 0 0 !important;
+  margin: -35rem 0 0 0 !important;
 }
 
 h5.card-green {
@@ -4379,7 +4397,30 @@ p.color-gradient-yellow {
 div.padding-footer {
   padding: 6rem 6rem 11rem 6rem;
 }
+button.btn1 {
+  font-size: 12px;
+  margin: 2rem 0 0 0;
+  font-family: var(--font);
+  font-weight: 400;
+  padding: 1.3rem;
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 30px rgba(23, 9, 44, 0.37);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
+button.btn1:hover {
+  border: none;
+  background-color: #a068d8;
+  box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3);
+  color: #fff;
+  transform: translateY(-7px);
+}
 button.btn {
   font-size: 23px;
   margin: 2rem 0 0 0;
