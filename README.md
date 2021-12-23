@@ -1,2 +1,1 @@
-A responsive portfolio created as a 3rd project for SheCodes 🧠💼
-Hosted with Netlify 
+A responsive portfolio created with HTML/CSS/JavaScript (jquery)
